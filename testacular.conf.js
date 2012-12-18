@@ -11,7 +11,7 @@ files = [
   MOCHA,
   MOCHA_ADAPTER,
   'spec/vendor/*.js',
-  'lib/struct.js',
+  'lib/strukt.js',
   'spec/spec.js',
   'spec/helper.js'
 ];

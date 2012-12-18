@@ -11,7 +11,7 @@ module.exports = function (grunt) {
 		coffee: {
 			compile: {
 				files: {
-					'lib/struct.js': 'lib/struct.coffee',
+					'lib/strukt.js': 'lib/strukt.coffee',
 					'spec/spec.js': 'spec/spec.coffee'
 				}
 			}
@@ -19,13 +19,13 @@ module.exports = function (grunt) {
 
 		concat: {
 			dist: {
-				lib: ['<banner>', 'lib/struct.js'],
-				dest: 'lib/struct.js'
+				lib: ['<banner>', 'lib/strukt.js'],
+				dest: 'lib/strukt.js'
 			}
 		},
 
 		watch: {
-			files: ['lib/struct.coffee', 'spec/spec.coffee'],
+			files: ['lib/strukt.coffee', 'spec/spec.coffee'],
 			tasks: 'coffee'
 		}
 
