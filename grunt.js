@@ -24,6 +24,12 @@ module.exports = function (grunt) {
 			}
 		},
 
+		mocha: {
+			all: {
+				lib: 'spec/index.html',
+				run: true
+			}
+		},
 
 		watch: {
 			files: ['lib/struct.coffee', 'spec/spec.coffee'],
