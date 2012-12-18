@@ -24,13 +24,6 @@ module.exports = function (grunt) {
 			}
 		},
 
-		mocha: {
-			all: {
-				lib: 'spec/index.html',
-				run: true
-			}
-		},
-
 		watch: {
 			files: ['lib/struct.coffee', 'spec/spec.coffee'],
 			tasks: 'coffee'
@@ -39,11 +32,9 @@ module.exports = function (grunt) {
 	})
 
 	grunt.loadNpmTasks('grunt-contrib-coffee')
-	grunt.loadNpmTasks('grunt-mocha')
 
 	grunt.registerTask('dev', 'coffee')
-	grunt.registerTask('test', 'mocha')
-	grunt.registerTask('release', 'coffee concat mocha')
+	grunt.registerTask('release', 'coffee concat')
 	grunt.registerTask('default', 'release')
 
 }
