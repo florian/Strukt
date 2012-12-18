@@ -1,0 +1,1 @@
+# Structs for JavaScript inspired by Ruby
