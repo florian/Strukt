@@ -1,6 +1,6 @@
 # Structs for JavaScript inspired by Ruby
 
-[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these *Strukt* provides a similiar minimalistic API for JavaScript in the browser and in Node.
+[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these, *Strukt* provides a similiar minimalistic API for JavaScript in the browser and in Node.
 
 ## Installation
 
