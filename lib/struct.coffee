@@ -1,4 +1,8 @@
-Struct = ->
+Struct = (properties...) ->
+	constructor = properties.pop() if typeof properties[-1..][0] is 'function'
+	(values...) ->
+		@[property] = values[i] for property, i in properties
+		constructor?.call(@)
 
 # CommonJS, AMD, casual
 if typeof define is 'function' and define.amd
