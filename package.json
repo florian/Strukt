@@ -6,7 +6,7 @@
   "author": "Florian H.",
   "main": "lib/struct.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "testacular start"
   },
   "repository": {
     "type": "git",
