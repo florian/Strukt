@@ -33,8 +33,8 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-coffee')
 
-	grunt.registerTask('dev', 'coffee')
-	grunt.registerTask('release', 'coffee concat')
 	grunt.registerTask('default', 'release')
+	grunt.registerTask('release', 'coffee concat')
+	grunt.registerTask('dev', 'coffee')
 
 }
