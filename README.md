@@ -1,15 +1,15 @@
 # Structs for JavaScript inspired by Ruby
 
-[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these *struct.js* provides a similiar minimalistic API for JavaScript in the browser and in Node.
+[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these *Strukt* provides a similiar minimalistic API for JavaScript in the browser and in Node.
 
 ## Installation
 
-- **Node**: `$ npm install struct.js`
+- **Node**: `$ npm install strukt.js`
   ```js
-  var Struct = require('struct.js');
+  var Struct = require('strukt.js');
   ```
 
-- **Browser**: Grab [lib/struct.js](https://raw.github.com/js-coder/struct.js/master/lib/struct.js) and include it in your HTML document.
+- **Browser**: Grab [lib/strukt.js](https://raw.github.com/js-coder/strukt.js/master/lib/strukt.js) and include it in your HTML document.
 
   A global `Struct` function will be added. AMD and CommonJS loaders are also supported.
 
