@@ -4,9 +4,9 @@
 
 ## Installation
 
-- **Node**: `$ npm install strukt.js`
+- **Node**: `$ npm install strukt`
   ```js
-  var Struct = require('strukt.js');
+  var Struct = require('strukt');
   ```
 
 - **Browser**: Grab [lib/strukt.js](https://raw.github.com/js-coder/strukt.js/master/lib/strukt.js) and include it in your HTML document.
