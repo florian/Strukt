@@ -57,7 +57,7 @@ john.surname; // 'Doe'
 
 ## Constructor functions
 
-Maybe you'd like to add a constructor function to your Struct. If the last argument of `Struct` or `Struct.Explicit` is a function it'll used as a constructor function.
+Maybe you'd like to add a constructor function to your Struct. If the last argument of `Struct` or `Struct.Explicit` is a function it'll be used as a constructor function.
 
 ```js
 var Person = new Struct.Explicit('forename', 'surname', function () {
