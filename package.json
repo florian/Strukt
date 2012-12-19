@@ -13,7 +13,7 @@
 		"url": "https://github.com/js-coder/Strukt.git"
 	},
 	"bugs": {
-		"url" : "http://github.com/js-coder/cookie.js/issues"
+		"url" : "http://github.com/js-coder/Strukt/issues"
 	},
 	"devDependencies": {
 		"grunt": "~0.3",
