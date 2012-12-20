@@ -32,7 +32,7 @@ Prefer CoffeeScript?
 class Point extends new Struct 'x', 'y'
   # More class logic
 
-p = new Point 42, 1337;
+p = new Point 42, 1337
 p.x # 42
 p.y # 1337
 ```
