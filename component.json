@@ -1,0 +1,11 @@
+{
+  "name": "Strukt",
+  "repo": "js-coder/Strukt",
+  "description": "Ruby inspired Structs for JavaScript.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "lib/strukt.js"
+}
