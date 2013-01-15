@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": [
-    "index.js"
+    "lib/strukt.js"
   ],
   "main": "lib/strukt.js"
 }
