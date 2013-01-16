@@ -4,14 +4,32 @@
 
 ## Installation
 
-- **Node**: `$ npm install strukt`
-  ```js
-  var Struct = require('strukt');
-  ```
+### Node
 
-- **Browser**: Grab [lib/strukt.js](https://raw.github.com/js-coder/strukt.js/master/lib/strukt.js) and include it in your HTML document.
+```sh
+$ npm install strukt
+```
 
-  A global `Struct` function will be added. AMD and CommonJS loaders are also supported.
+```js
+var Strukt = require('strukt');
+```
+
+### Browser
+
+Grab [lib/strukt.js](https://github.com/js-coder/strukt/blob/master/lib/strukt) and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `Strukt` is assigned to `window.Strukt`.
+
+- - -
+
+In case you are using [component](https://github.com/component/component) (you should, it's awesome!):
+
+```sh
+$ component install js-coder/Strukt
+```
+
+```js
+var Strukt = require('strukt');
+```
+
 
 - - -
 
