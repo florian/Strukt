@@ -1,6 +1,6 @@
 # Structs for JavaScript inspired by Ruby [![Build Status](https://travis-ci.org/js-coder/Strukt.png?branch=master)](https://travis-ci.org/js-coder/Strukt)
 
-[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these, *Strukt* provides a similiar minimalistic API for JavaScript in the browser and in Node. It allows you to quickly create constructor functions with less code.
+[Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these, *Strukt* provides a similiar minimalistic API for node and the browser. It allows you to quickly create constructor functions with less code.
 
 ## Installation
 
@@ -29,7 +29,6 @@ $ component install js-coder/Strukt
 ```js
 var Strukt = require('strukt');
 ```
-
 
 - - -
 
