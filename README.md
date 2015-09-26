@@ -1,4 +1,4 @@
-# Structs for JavaScript inspired by Ruby [![Build Status](https://travis-ci.org/js-coder/Strukt.png?branch=master)](https://travis-ci.org/js-coder/Strukt)
+# Structs for JavaScript inspired by Ruby [![Build Status](https://travis-ci.org/florian/Strukt.png?branch=master)](https://travis-ci.org/florian/Strukt)
 
 [Ruby Structs](http://www.ruby-doc.org/core-1.9.3/Struct.html) are an awesome way to add several attributes to a class. Inspired by these, *Strukt* provides a similiar minimalistic API for node and the browser. It allows you to quickly create constructor functions with less code.
 
@@ -16,14 +16,14 @@ var Strukt = require('strukt');
 
 ### Browser
 
-Grab [lib/strukt.js](https://github.com/js-coder/strukt/blob/master/lib/strukt) and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `Strukt` is assigned to `window.Strukt`.
+Grab [lib/strukt.js](https://github.com/florian/Strukt/tree/master/lib) and include it in your HTML document. If an AMD or CommonJS loader is present it will be used, otherwise `Strukt` is assigned to `window.Strukt`.
 
 - - -
 
 In case you are using [component](https://github.com/component/component) (you should, it's awesome!):
 
 ```sh
-$ component install js-coder/Strukt
+$ component install florian/Strukt
 ```
 
 ```js
