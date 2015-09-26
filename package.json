@@ -3,17 +3,17 @@
 	"description": "Ruby inspired Structs for node and the browser.",
 	"version": "1.0.0",
 	"license": "MIT/X11",
-	"author": "Florian H. <jscoderr@gmail.com>",
+	"author": "Florian Hartmann <jscoderr@gmail.com>",
 	"main": "lib/strukt.js",
 	"scripts": {
 		"test": "grunt test"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/js-coder/Strukt.git"
+		"url": "https://github.com/florian/Strukt.git"
 	},
 	"bugs": {
-		"url" : "http://github.com/js-coder/Strukt/issues"
+		"url" : "http://github.com/florian/Strukt/issues"
 	},
 	"devDependencies": {
 		"grunt": "~0.3",
