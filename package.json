@@ -2,7 +2,7 @@
 	"name": "strukt",
 	"description": "Ruby inspired Structs for node and the browser.",
 	"version": "1.0.0",
-	"license": "MIT/X11",
+	"license": "MIT",
 	"author": "Florian Hartmann <jscoderr@gmail.com>",
 	"main": "lib/strukt.js",
 	"scripts": {
