@@ -1,5 +1,4 @@
 (function() {
-
   describe('Struct', function() {
     it('should be in the global scope', function() {
       return expect(window).to.have.property('Struct');
