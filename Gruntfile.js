@@ -1,13 +1,6 @@
-// When grunt 0.4 is released, this will become a CoffeeScript file (Gruntfile.coffee).
-
 module.exports = function (grunt) {
 
 	grunt.initConfig({
-
-		meta: {
-			banner: '// ' + grunt.file.read('LICENSE').split('\n')[0]
-		},
-
 		coffee: {
 			compile: {
 				files: {
@@ -18,8 +11,12 @@ module.exports = function (grunt) {
 		},
 
 		concat: {
+			options: {
+				stripBanners: true,
+				banner: '// ' + grunt.file.read('LICENSE').split('\n')[0] + '\n'
+			},
 			dist: {
-				lib: ['<banner>', 'lib/strukt.js'],
+				src: ['lib/strukt.js'],
 				dest: 'lib/strukt.js'
 			}
 		},
@@ -38,12 +35,14 @@ module.exports = function (grunt) {
 
 	})
 
-	grunt.loadNpmTasks('grunt-contrib-coffee')
-	grunt.loadNpmTasks('grunt-mocha')
+	grunt.loadNpmTasks('grunt-contrib-coffee');
+	grunt.loadNpmTasks('grunt-mocha');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 
-	grunt.registerTask('dev', 'coffee')
-	grunt.registerTask('test', 'mocha')
-	grunt.registerTask('release', 'coffee concat')
-	grunt.registerTask('default', 'release')
+	grunt.registerTask('dev', 'coffee');
+	grunt.registerTask('test', 'mocha');
+	grunt.registerTask('release', ['coffee', 'mocha', 'concat']);
+	grunt.registerTask('default', 'release');
 
 }

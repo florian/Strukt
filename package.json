@@ -1,23 +1,25 @@
 {
-	"name": "strukt",
-	"description": "Ruby inspired Structs for node and the browser.",
-	"version": "1.0.0",
-	"license": "MIT",
-	"author": "Florian Hartmann <jscoderr@gmail.com>",
-	"main": "lib/strukt.js",
-	"scripts": {
-		"test": "grunt test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/florian/Strukt.git"
-	},
-	"bugs": {
-		"url" : "http://github.com/florian/Strukt/issues"
-	},
-	"devDependencies": {
-		"grunt": "~0.3",
-		"grunt-contrib-coffee": "~0.3",
-		"grunt-mocha": "~0.1"
-	}
+  "name": "strukt",
+  "description": "Ruby inspired Structs for node and the browser.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Florian Hartmann <jscoderr@gmail.com>",
+  "main": "lib/strukt.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florian/Strukt.git"
+  },
+  "bugs": {
+    "url": "http://github.com/florian/Strukt/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha": "^0.4.13"
+  }
 }
